@@ -33,7 +33,7 @@ class BidController extends Controller
                 ->orWhere('vin', 'like', '%'.$searchtext.'%');
             });
         }
-        $result = $rsquery->orderBy("id","desc")->paginate($ixp);
+        $result = $rsquery->orderBy("id","asc")->paginate($ixp);
      
         //return response()->json($result, 200);
         return $result;

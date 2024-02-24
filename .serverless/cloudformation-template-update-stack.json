@@ -182,7 +182,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/autobid-registry-apis/prod/1708322522387-2024-02-19T06:02:02.387Z/autobid-registry-apis.zip"
+          "S3Key": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z/autobid-registry-apis.zip"
         },
         "Handler": "public/index.php",
         "Runtime": "provided.al2",
@@ -219,7 +219,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/autobid-registry-apis/prod/1708322522387-2024-02-19T06:02:02.387Z/autobid-registry-apis.zip"
+          "S3Key": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z/autobid-registry-apis.zip"
         },
         "Handler": "artisan",
         "Runtime": "provided.al2",
@@ -250,24 +250,24 @@
         "ArtisanLogGroup"
       ]
     },
-    "WebLambdaVersion35KyZLVS98Afvml7wFm3GViVGYadoUb8ltkToFa4": {
+    "WebLambdaVersionB1Nr5trMzAJJqkZ8Y16BOjUrVjbz4bRECujrePlBfc8": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "WebLambdaFunction"
         },
-        "CodeSha256": "D5Vk0Rx6c9Ela8jcBzk/axM8wkpWqZBB3qSKwmZnPtY="
+        "CodeSha256": "yndB9DPnL2i0z4oTNEdL5yzlQSZvFRb1ndA+KAZ+PzA="
       }
     },
-    "ArtisanLambdaVersionGeL5N1gRKK4xkZpFj4jnSg3ZN3Zeu5JDWBU1Pcytg": {
+    "ArtisanLambdaVersion8ggP4rJosIxS9Xh9q0DICoNL3P9eUQKGVzUfjQBJ4": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ArtisanLambdaFunction"
         },
-        "CodeSha256": "D5Vk0Rx6c9Ela8jcBzk/axM8wkpWqZBB3qSKwmZnPtY="
+        "CodeSha256": "yndB9DPnL2i0z4oTNEdL5yzlQSZvFRb1ndA+KAZ+PzA="
       }
     },
     "HttpApi": {
@@ -381,7 +381,7 @@
     "WebLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "WebLambdaVersion35KyZLVS98Afvml7wFm3GViVGYadoUb8ltkToFa4"
+        "Ref": "WebLambdaVersionB1Nr5trMzAJJqkZ8Y16BOjUrVjbz4bRECujrePlBfc8"
       },
       "Export": {
         "Name": "sls-autobid-registry-apis-prod-WebLambdaFunctionQualifiedArn"
@@ -390,7 +390,7 @@
     "ArtisanLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ArtisanLambdaVersionGeL5N1gRKK4xkZpFj4jnSg3ZN3Zeu5JDWBU1Pcytg"
+        "Ref": "ArtisanLambdaVersion8ggP4rJosIxS9Xh9q0DICoNL3P9eUQKGVzUfjQBJ4"
       },
       "Export": {
         "Name": "sls-autobid-registry-apis-prod-ArtisanLambdaFunctionQualifiedArn"
