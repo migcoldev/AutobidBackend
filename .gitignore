@@ -17,4 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-.serverless/autobid-registry-apis.zip
+.serverless/*
+.serverless
