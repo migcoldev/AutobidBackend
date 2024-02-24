@@ -216,7 +216,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z/autobid-registry-apis.zip"
+                "S3Key": "serverless/autobid-registry-apis/prod/1708814745411-2024-02-24T22:45:45.411Z/autobid-registry-apis.zip"
               },
               "Handler": "public/index.php",
               "Runtime": "provided.al2",
@@ -253,7 +253,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z/autobid-registry-apis.zip"
+                "S3Key": "serverless/autobid-registry-apis/prod/1708814745411-2024-02-24T22:45:45.411Z/autobid-registry-apis.zip"
               },
               "Handler": "artisan",
               "Runtime": "provided.al2",
@@ -284,24 +284,24 @@
               "ArtisanLogGroup"
             ]
           },
-          "WebLambdaVersionB1Nr5trMzAJJqkZ8Y16BOjUrVjbz4bRECujrePlBfc8": {
+          "WebLambdaVersionDxH6wblEhXgnJH9i1k4bUDpkVPshoVCbS4Dd2GMOcs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "WebLambdaFunction"
               },
-              "CodeSha256": "yndB9DPnL2i0z4oTNEdL5yzlQSZvFRb1ndA+KAZ+PzA="
+              "CodeSha256": "TW2qoTHgT6IXfaArsIv/WDrYBAYfMR1oXnk6uFydBRA="
             }
           },
-          "ArtisanLambdaVersion8ggP4rJosIxS9Xh9q0DICoNL3P9eUQKGVzUfjQBJ4": {
+          "ArtisanLambdaVersioniw5nCNcZVTxF9XFZ9mrHRidY0XSHRJtVtuDhnc6g44": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ArtisanLambdaFunction"
               },
-              "CodeSha256": "yndB9DPnL2i0z4oTNEdL5yzlQSZvFRb1ndA+KAZ+PzA="
+              "CodeSha256": "TW2qoTHgT6IXfaArsIv/WDrYBAYfMR1oXnk6uFydBRA="
             }
           },
           "HttpApi": {
@@ -412,7 +412,7 @@
           "WebLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "WebLambdaVersionB1Nr5trMzAJJqkZ8Y16BOjUrVjbz4bRECujrePlBfc8"
+              "Ref": "WebLambdaVersionDxH6wblEhXgnJH9i1k4bUDpkVPshoVCbS4Dd2GMOcs"
             },
             "Export": {
               "Name": "sls-autobid-registry-apis-prod-WebLambdaFunctionQualifiedArn"
@@ -421,7 +421,7 @@
           "ArtisanLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ArtisanLambdaVersion8ggP4rJosIxS9Xh9q0DICoNL3P9eUQKGVzUfjQBJ4"
+              "Ref": "ArtisanLambdaVersioniw5nCNcZVTxF9XFZ9mrHRidY0XSHRJtVtuDhnc6g44"
             },
             "Export": {
               "Name": "sls-autobid-registry-apis-prod-ArtisanLambdaFunctionQualifiedArn"
@@ -576,7 +576,7 @@
         "memory": 1024,
         "runtime": "provided.al2",
         "vpc": {},
-        "versionLogicalId": "WebLambdaVersionB1Nr5trMzAJJqkZ8Y16BOjUrVjbz4bRECujrePlBfc8"
+        "versionLogicalId": "WebLambdaVersionDxH6wblEhXgnJH9i1k4bUDpkVPshoVCbS4Dd2GMOcs"
       },
       "artisan": {
         "handler": "artisan",
@@ -590,7 +590,7 @@
         "memory": 1024,
         "runtime": "provided.al2",
         "vpc": {},
-        "versionLogicalId": "ArtisanLambdaVersion8ggP4rJosIxS9Xh9q0DICoNL3P9eUQKGVzUfjQBJ4"
+        "versionLogicalId": "ArtisanLambdaVersioniw5nCNcZVTxF9XFZ9mrHRidY0XSHRJtVtuDhnc6g44"
       }
     },
     "resources": {
@@ -624,7 +624,7 @@
         ],
         "artifactsS3KeyDirname": "serverless/autobid-registry-apis/prod/code-artifacts",
         "artifact": "/Applications/XAMPP/xamppfiles/htdocs/AutobidRegistry/AutobidBackend/.serverless/autobid-registry-apis.zip",
-        "artifactDirectoryName": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z"
+        "artifactDirectoryName": "serverless/autobid-registry-apis/prod/1708814745411-2024-02-24T22:45:45.411Z"
       },
       "functions": {
         "$ref": "$[\"service\"][\"functions\"]"
@@ -641,7 +641,7 @@
     "artifact": "/Applications/XAMPP/xamppfiles/htdocs/AutobidRegistry/AutobidBackend/.serverless/autobid-registry-apis.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/autobid-registry-apis/prod/1708796625321-2024-02-24T17:43:45.321Z",
+    "artifactDirectoryName": "serverless/autobid-registry-apis/prod/1708814745411-2024-02-24T22:45:45.411Z",
     "artifact": "autobid-registry-apis.zip"
   }
 }
